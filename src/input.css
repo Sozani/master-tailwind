@@ -23,7 +23,7 @@
         @apply  px-8 py-3 bg-bright-red text-white rounded-3xl shadow-lg hover:scale-105 hover:bg-red-400 w-40;
     }
     .hamburger{
-        @apply  cursor-pointer;
+        @apply  cursor-pointer absolute;
     }
     .menu{
         @apply   md:hidden absolute  flex-col pt-16  top-28 left-8 font-bold text-center leading-10 align-middle max-w-sm items-center h-[20rem] w-[20rem] bg-slate-400 mx-auto; 
